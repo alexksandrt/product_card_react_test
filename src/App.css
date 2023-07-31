@@ -288,3 +288,17 @@ header {
     width: calc(100% - 35px);
   }
 }
+
+@media (hover: none), (pointer: coarse) {
+  .buy-button:hover {
+    background-color: initial;
+    color: initial;
+    transition: all 0.2s ease-in-out;
+  }
+  .size-button:hover {
+    background-color: initial;
+    color: initial;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+}
