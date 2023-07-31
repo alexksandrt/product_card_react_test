@@ -45,7 +45,7 @@ function App() {
               className={`cart-button ${isCartButtonActive ? 'cart-button-active' : ''}`}
               onClick={handleCartButtonClick}
             >
-              My Cart (<span className="cart-count">4</span>)
+              My Cart (<span className="cart-count">3</span>)
             </button>
           </div>
         </div>
@@ -67,7 +67,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                ))}
+              ))}
             </div>
           </div>
         </div>
