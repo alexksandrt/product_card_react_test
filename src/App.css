@@ -172,6 +172,7 @@ header {
   background-color: #fff;
   border: 1px solid #cccccc;
   margin-right: 5px;
+  margin-top: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
@@ -190,7 +191,9 @@ header {
 }
 
 .size-button {
-  padding: 15px 17px;
+
+  width: 45px;
+  height: 45px;
   font-size: 11px;
   color: #888888;
   background-color: #fff;
@@ -333,7 +336,6 @@ header {
   }
   .quantity-buttons button:hover {
     background-color: initial;
-    border-color: initial;
     color: initial;
     font-weight: bold;
     transition: all 0.2s ease-in-out;

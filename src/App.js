@@ -35,7 +35,7 @@ function App() {
     } else {
       console.log("Added to cart:", productData.title, "Size:", selectedSize);
 
-      // Update cart items and their quantities
+      // Cart items and their quantities
       setCartItems((prevItems) => {
         const updatedItems = { ...prevItems };
         const quantity = updatedItems[selectedSize] || 0;
